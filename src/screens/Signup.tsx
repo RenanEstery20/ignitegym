@@ -6,7 +6,7 @@ import BackgroundImg from '@assets/background.png';
 import { Input } from '@components/Input';
 import { Button } from '@components/Button';
 
-export function SignIn() {
+export function Signup() {
   return (
     <VStack flex={1} bg="gray.700">
       <Image
@@ -31,9 +31,10 @@ export function SignIn() {
 
           <Center>
             <Heading color="gray.100" fontSize="xl" mb={6} fontFamily="heading">
-              Acesse a conta
+              Crie sua conta
             </Heading>
 
+            <Input placeholder="Nome" />
             <Input
               placeholder="E-mail"
               keyboardType="email-address"
@@ -41,16 +42,10 @@ export function SignIn() {
             />
             <Input placeholder="Senha" secureTextEntry />
 
-            <Button title="Acessar" />
+            <Button title="Criar e acessar" />
           </Center>
 
-          <Center mt={24}>
-            <Text color="gray.100" fontSize="sm" mb={3} fontFamily="body">
-              Ainda não tem acesso?
-            </Text>
-          </Center>
-
-          <Button title="Criar Conta" variant="outline" />
+          <Button title="Voltar para o login" variant="outline" mt={24} />
         </VStack>
       </ScrollView>
     </VStack>
