@@ -24,7 +24,9 @@
     "react-native-screens": "3.31.1",
     "react-native-svg": "12.3.0",
     "react-native-web": "~0.18.7",
-    "typescript": "~5.3.3"
+    "typescript": "~5.3.3",
+    "expo-image-picker": "~15.0.5",
+    "expo-file-system": "~17.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
