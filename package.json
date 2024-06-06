@@ -30,7 +30,8 @@
     "react-native-svg": "12.3.0",
     "react-native-web": "~0.18.7",
     "typescript": "~5.3.3",
-    "yup": "^1.4.0"
+    "yup": "^1.4.0",
+    "@react-native-async-storage/async-storage": "1.23.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
